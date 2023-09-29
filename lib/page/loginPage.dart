@@ -41,8 +41,8 @@ class _LoginPageState extends State<LoginPage> {
               SizedBox(
                 width: 150,
                 height: 150,
-                child: Image.network(
-                    'https://cdn2.iconfinder.com/data/icons/business-1559/92/13_Wallet_Wallet_Billfold_Cash_Cashflow_Money_Pay_Payment-512.png') // Replace with your logo asset
+                child: Image.asset(
+                    'assets/icons/piggy-bank.png') 
                 ),
               Padding(
                 padding: const EdgeInsets.only(

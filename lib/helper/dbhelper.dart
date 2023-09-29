@@ -41,7 +41,7 @@ class DbHelper {
 
     // insert to table user
     await db
-        .insert("user", {'email': 'riska@gmail.com', 'password': 'password'});
+        .insert("user", {'email': 'riska@mail.co', 'password': 'password'});
   }
 
   //* User
